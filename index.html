@@ -77,27 +77,30 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-semibold text-primary md:text-xl">Hello Everyone 👋, I'm <span class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">Josesdio</span></h1>
-            <h2 class="mb-5 text-lg font-medium text-secondary lg:text-2xl">Software Engineer & <span class="text-dark dark:text-white">Website Developer</span></h2>
-            <p class="mb-10 font-medium leading-relaxed text-secondary">
+            <h1 class="text-base font-semibold text-primary md:text-xl animate-fade-in">Hello Everyone 👋, I'm <span class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">Josesdio</span></h1>
+            <h2 class="mb-5 text-lg font-medium text-secondary lg:text-2xl animate-fade-in animation-delay-200">Software Engineer & <span class="text-dark dark:text-white">Website Developer</span></h2>
+            <p class="mb-10 font-medium leading-relaxed text-secondary animate-fade-in animation-delay-400">
               Building websites is an exciting and rewarding journey, isn't it? 
               <span class="font-bold text-dark dark:text-white">Absolutely!</span> 
               As a web developer, I specialize in crafting stunning, high-performance websites tailored to your needs. 
               From sleek designs to seamless functionality, my services bring your vision to life with cutting-edge technology and creativity.
             </p>
-            <a href="https://wa.me/6281334102692" target="_blank" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">Contact Me</a>
+            <div class="flex flex-wrap gap-4 animate-fade-in animation-delay-600">
+              <a href="https://wa.me/6281334102692" target="_blank" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">Contact Me</a>
+              <a href="#portfolio" class="rounded-full border-2 border-primary py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:bg-primary hover:text-white">View Projects</a>
+            </div>
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:right-0 lg:mt-9">
-              <img src="dist/img/pfp.jpg" alt="Josesdio" class="relative rounded-full z-10 mx-auto w-64 sm:w-72 md:w-80 lg:max-w-md" />
+              <img src="dist/img/pfp.jpg" alt="Josesdio" class="relative rounded-full z-10 mx-auto w-64 sm:w-72 md:w-80 lg:max-w-md animate-float" />
               <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
-                <!-- <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="animate-spin-slow">
                   <path
                     fill="#14b8a6"
                     d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
                     transform="translate(100 100) scale(1.1)"
                   />
-                </svg> -->
+                </svg>
               </span>
             </div>
           </div>
@@ -202,48 +205,48 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
-            <h4 class="mb-2 text-lg font-semibold text-primary">Portfolio</h4>
-            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">Latest Projects</h2>
-            <p class="text-md font-medium text-secondary md:text-lg">
+            <h4 class="mb-2 text-lg font-semibold text-primary animate-fade-in">Portfolio</h4>
+            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl animate-fade-in animation-delay-200">Latest Projects</h2>
+            <p class="text-md font-medium text-secondary md:text-lg animate-fade-in animation-delay-400">
               Explore my recent work, showcasing innovative web solutions crafted with creativity and precision. Each project reflects my passion for building impactful digital experiences.
             </p>
           </div>
         </div>
 
         <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
-          <div class="mb-12 p-4 md:w-1/2">
-            <a href="https://flixcinema.mimin.io/" target="_blank" class="block">
-              <div class="overflow-hidden rounded-md shadow-md">
-                <img src="dist/img/portfolio/flix-revamp.jpeg" alt="Flix Cinema" width="w-full" class="hover:opacity-80 transition-opacity duration-300" />
+          <div class="mb-12 p-4 md:w-1/2 animate-fade-in animation-delay-200">
+            <a href="https://flixcinema.mimin.io/" target="_blank" class="block group">
+              <div class="overflow-hidden rounded-md shadow-md transition duration-300 group-hover:shadow-xl">
+                <img src="dist/img/portfolio/flix-revamp.jpeg" alt="Flix Cinema" class="w-full transform transition duration-300 group-hover:scale-105" />
               </div>
-              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white hover:text-primary dark:hover:text-primary transition-colors duration-300">Flix Cinema</h3>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white group-hover:text-primary dark:group-hover:text-primary transition-colors duration-300">Flix Cinema</h3>
             </a>
             <p class="text-base font-medium text-secondary">A dynamic platform for movie enthusiasts, offering seamless ticket booking and an engaging user experience.</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <a href="https://mimin.io/" target="_blank" class="block">
-              <div class="overflow-hidden rounded-md shadow-md">
-                <img src="dist/img/portfolio/mimin.jpeg" alt="Mimin Company Profile" width="w-full" class="hover:opacity-80 transition-opacity duration-300" />
+          <div class="mb-12 p-4 md:w-1/2 animate-fade-in animation-delay-400">
+            <a href="https://mimin.io/" target="_blank" class="block group">
+              <div class="overflow-hidden rounded-md shadow-md transition duration-300 group-hover:shadow-xl">
+                <img src="dist/img/portfolio/mimin.jpeg" alt="Mimin Company Profile" class="w-full transform transition duration-300 group-hover:scale-105" />
               </div>
-              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white hover:text-primary dark:hover:text-primary transition-colors duration-300">Mimin Company Profile</h3>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white group-hover:text-primary dark:group-hover:text-primary transition-colors duration-300">Mimin Company Profile</h3>
             </a>
             <p class="text-base font-medium text-secondary">A professional company profile showcasing Mimin's innovative solutions for business automation.</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <a href="https://platform.mimin.io/" target="_blank" class="block">
-              <div class="overflow-hidden rounded-md shadow-md">
-                <img src="dist/img/portfolio/platform.jpeg" alt="AI Knowledge" width="w-full" class="hover:opacity-80 transition-opacity duration-300" />
+          <div class="mb-12 p-4 md:w-1/2 animate-fade-in animation-delay-600">
+            <a href="https://platform.mimin.io/" target="_blank" class="block group">
+              <div class="overflow-hidden rounded-md shadow-md transition duration-300 group-hover:shadow-xl">
+                <img src="dist/img/portfolio/platform.jpeg" alt="AI Knowledge" class="w-full transform transition duration-300 group-hover:scale-105" />
               </div>
-              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white hover:text-primary dark:hover:text-primary transition-colors duration-300">AI Knowledge</h3>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white group-hover:text-primary dark:group-hover:text-primary transition-colors duration-300">AI Knowledge</h3>
             </a>
             <p class="text-base font-medium text-secondary">An AI-powered platform designed to streamline knowledge management and enhance productivity.</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <a href="https://www.therapyumid.com/" target="_blank" class="block">
-              <div class="overflow-hidden rounded-md shadow-md">
-                <img src="dist/img/portfolio/therapyum.jpeg" alt="Therapyum" width="w-full" class="hover:opacity-80 transition-opacity duration-300" />
+          <div class="mb-12 p-4 md:w-1/2 animate-fade-in animation-delay-800">
+            <a href="https://www.therapyumid.com/" target="_blank" class="block group">
+              <div class="overflow-hidden rounded-md shadow-md transition duration-300 group-hover:shadow-xl">
+                <img src="dist/img/portfolio/therapyum.jpeg" alt="Therapyum" class="w-full transform transition duration-300 group-hover:scale-105" />
               </div>
-              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white hover:text-primary dark:hover:text-primary transition-colors duration-300">Therapyum</h3>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white group-hover:text-primary dark:group-hover:text-primary transition-colors duration-300">Therapyum</h3>
             </a>
             <p class="text-base font-medium text-secondary">A skincare platform offering personalized product recommendations and expert advice for radiant skin.</p>
           </div>
@@ -284,7 +287,7 @@
                 <img src="dist/img/clients/Hero_Supermarket.png" alt="Hero Supermarket" />
               </a>
               <a href="https://wellings.id/" target="_blank" class="mx-4 max-w-none w-40 py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
-                <img src="dist/img/clients/Wellings.png" alt="Wellings" class="max-w-none w-52"/>
+                <img src="dist/img/clients/Wellings.png" alt="Wellings" class="max-w-none w-48"/>
               </a>
               <a href="https://bluebirdgroup.com/" target="_blank" class="mx-4 max-w-[10rem] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
                 <img src="dist/img/clients/bluebird.png" alt="Bluebird" />
