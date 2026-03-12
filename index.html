@@ -585,6 +585,67 @@
       window.open(whatsappUrl, '_blank');
     });
   </script>
+
+  <script type="module">
+    import { Chatbot } from "https://unpkg.com/mimin-chatbot-widget-react@latest/dist/chat-widget.js";
+
+    Chatbot.init({
+      credentials: {
+        apiKey: "n51I1W5ZNIbyjb9Db35iBRFup",
+        username: "fishvillagestore",
+      },
+      theme: {
+        button: {
+          backgroundColor: "#161618",
+          textColor: "#FFFFFF",
+          iconSrc: "https://appstaging.mimin.io/favicon.ico",
+          tooltip: "Chat dengan Kami",
+        },
+        chatWindow: {
+          isActiveCall: false,
+          needAuthentication: false,
+          enableGreating: false,
+          header: {
+            backgroundColor: "#161618",
+            color: "#FFFFFF",
+            title: "Chat dengan Kami",
+            description: "Asisten virtual 24/7",
+            avatarSrc: "https://res.cloudinary.com/dctqloe37/image/upload/v1752147771/agent_ohofti.jpg",
+            closeColorButton: "#EF4444",
+            voiceAIColorButton: "#10B981",
+            refreshColorButton: "#F59E0B",
+          },
+          botMessage: {
+            backgroundColor: "#F3F4F6",
+            borderColor: "#1F2937",
+            textColor: "#1F2937",
+          },
+          userMessage: {
+            backgroundColor: "#4F46E5",
+            borderColor: "#FFFFFF",
+            textColor: "#FFFFFF",
+          },
+          greating: {
+            title: "Halo! 👋",
+            description: "Ada yang bisa kami bantu?",
+            avatar: "https://res.cloudinary.com/dctqloe37/image/upload/v1752571979/Icon_AI_Agent_lrdrhr.png",
+            color: "#161618",
+          },
+          textInput: {
+            title: "Halo! 👋",
+            borderColor: "#161618",
+            placeholder: "Enter your message here...",
+            backgroundColor: "#161618",
+            sendButtonColor: "#161618",
+            footerText: "Powered by Mimin",
+            footerTextColor: "#6B7280",
+          }
+        },
+      },
+    });
+  </script>
+
+
 </body>
 
 </html>
